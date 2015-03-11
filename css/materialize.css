@@ -2163,7 +2163,7 @@ ul.staggered-list li {
 footer.page-footer {
   margin-top: 20px;
   padding-top: 20px;
-  background-color: #ee6e73; }
+}
   footer.page-footer .footer-copyright {
     overflow: hidden;
     height: 50px;
@@ -2540,8 +2540,8 @@ span.badge {
 
 @font-face {
   font-family: "Material-Design-Icons";
-  src: url("../font/material-design-icons/Material-Design-Icons.eot");
-  src: url("../font/material-design-icons/Material-Design-Icons.eot?#iefix") format("embedded-opentype"), url("../font/material-design-icons/Material-Design-Icons.woff") format("woff"), url("../font/material-design-icons/Material-Design-Icons.ttf") format("truetype"), url("../font/material-design-icons/Material-Design-Icons.svg#Material-Design-Icons") format("svg");
+  src: url("../fonts/material-design-icons/Material-Design-Icons.eot");
+  src: url("../fonts/material-design-icons/Material-Design-Icons.eot?#iefix") format("embedded-opentype"), url("../fonts/material-design-icons/Material-Design-Icons.woff") format("woff"), url("../fonts/material-design-icons/Material-Design-Icons.ttf") format("truetype"), url("../fonts/material-design-icons/Material-Design-Icons.svg#Material-Design-Icons") format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -4162,7 +4162,7 @@ span.badge {
   content: "\e816"; }
 
 .mdi-image-flash-auto:before {
-  content: "\e817"; }
+  content: "\e817"; } 
 
 .mdi-image-flash-off:before {
   content: "\e818"; }
@@ -5124,7 +5124,7 @@ nav {
       font-size: 1rem;
       color: #fff;
       display: inline-block;
-      padding: 8px 10px; }
+      padding: 0px 10px; }
     nav ul.left {
       float: left; }
   nav .input-field {
@@ -5171,7 +5171,7 @@ nav {
 @media only screen and (min-width : 601px) {
   nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
     height: 80px;
-    line-height: 64px; }
+    line-height: 80px; }
 
   .navbar-fixed {
     height: 64px; }
@@ -5179,27 +5179,27 @@ nav {
 
 @font-face {
   font-family: "Roboto";
-  src: url("../font/roboto/Roboto-Thin.ttf");
+  src: url("../fonts/roboto/Roboto-Thin.ttf");
   font-weight: 200; }
 
 @font-face {
   font-family: "Roboto";
-  src: url("../font/roboto/Roboto-Light.ttf");
+  src: url("../fonts/roboto/Roboto-Light.ttf");
   font-weight: 300; }
 
 @font-face {
   font-family: "Roboto";
-  src: url("../font/roboto/Roboto-Regular.ttf");
+  src: url("../fonts/roboto/Roboto-Regular.ttf");
   font-weight: 400; }
 
 @font-face {
   font-family: "Roboto";
-  src: url("../font/roboto/Roboto-Medium.ttf");
+  src: url("../fonts/roboto/Roboto-Medium.ttf");
   font-weight: 500; }
 
 @font-face {
   font-family: "Roboto";
-  src: url("../font/roboto/Roboto-Bold.ttf");
+  src: url("../fonts/roboto/Roboto-Bold.ttf");
   font-weight: 700; }
 
 a {
@@ -5696,7 +5696,7 @@ ul.tabs li.tab {
 
 .btn, .btn-large {
   text-decoration: none;
-  color: #FFF;
+  color: rgba(0, 0, 0, 0.87);
   background-color: #26a69a;
   text-align: center;
   letter-spacing: 0.5px;
@@ -5707,7 +5707,7 @@ ul.tabs li.tab {
   transition: 0.2s ease-out;
   cursor: pointer; }
   .btn:hover, .btn-large:hover {
-    background-color: #2bbbad; }
+    background-color: #1976d2;color: #FFF; }
 
 .btn-floating {
   display: inline-block;
@@ -5865,7 +5865,7 @@ ul.tabs li.tab {
   .waves-effect.waves-green .waves-ripple {
     background-color: rgba(76, 175, 80, 0.7); }
   .waves-effect.waves-teal .waves-ripple {
-    background-color: rgba(0, 150, 136, 0.7); }
+    background-color: rgba(0, 150, 136, 0.7); }*/
 
 .waves-notransition {
   -webkit-transition: none !important;

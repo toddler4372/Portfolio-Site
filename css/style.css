@@ -14,10 +14,12 @@
 .default-primary-color { background: #1976d2; }
 .light-primary-color   { background: #B3E5FC; }
 .text-primary-color    { color: #FFFFFF; }
-.accent-color          { background: #FF9800; }
+.accent-color          { background: #e23237; }
+.accent-color-text     { color: #e23237; }
 .primary-text-color    { color: #212121; }
 .secondary-text-color  { color: #727272; }
 .divider-color         { border-color: #B6B6B6; }
+.button-color		   { background: #fafafa;}
 
 .nav {background-color: #455A64 !important;}
 
@@ -31,6 +33,10 @@ img.logo {
   padding: 10px 0 10px 0;
 }
 
+@media only screen and (max-width: 992px) {
+	img.logo {display: none;}
+}
+
 h5.header.col.s12.white-text {
   padding-bottom: 30px;
   margin-top: 0;
@@ -40,3 +46,33 @@ div#sub-header {
 	background: #1976d2 url(../images/skyline.png) no-repeat;
 	background-size:100%;
 }
+
+i.technical {
+	background: url(../images/curly-braces.png) no-repeat center;
+  	height: 35px;
+  	display: block;
+  	margin-top: 35px;
+  	margin-bottom: 40px;
+  }
+
+.social-icons, .quick-bio {
+  padding: 0 40px 0 40px;
+}
+
+.page-footer i {
+  font-size: 68px;
+  width: 77px;
+  margin: 0 10px 0 0;
+  text-align: center;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  background: transparent;
+  opacity: 0.2;
+  color: #fff;
+}
+
+.fa-twitter:hover, .fa-linkedin:hover, .fa-github:hover, .fa-facebook:hover {opacity: 1;}
+.fa-facebook {margin-left: -20px !important;}
+
