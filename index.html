@@ -1,143 +1,146 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>Todd Williams - Front End Developer</title>
 
-  <meta charset="UTF-8">
-
-  <title>Portfolio - Todd Williams</title>
-
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/materialize.css">
-
+  <!-- CSS  -->
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
-
 <body>
+  <nav class="default-primary-color z-depth-5" role="navigation">
+    <div class="container">
+      <div class="nav-wrapper"><a id="logo-container" href="#" class="brand-logo"><img src="images/logo.png" class="logo" alt="Logo" /></a>
+        <ul class="right">
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
 
-  <header class="header default-primary-color z-depth-1">
-        <img src="images/photo.png" alt="" class="circle responsive-img">
-        <h1 class="grey-text text-lighten-5">Todd Williams</h1>
-        <h5 class="grey lighten-4 grey-text text-darken-1">Front End Developer</h5>
-        <nav class="default-primary-color z-depth-1"></nav>
-      </header>
+        <ul id="nav-mobile" class="side-nav">
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+      </div>
 
- <div class="container about">
-        <h5>about me</h5>
-        <h6>let me introduce myself</h6>
-        <hr>
-        <div class="row">
-          <div class="col s12 m4 l4">
-            <h6>Story</h6>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <ul id="nav-mobile" class="side-nav">
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        
+      </div>
+    </div>
+  </nav>
+  <div id="sub-header" class="dark-primary-color z-depth-1">
+    <img src="images/logo-large.png" class="logo-large" alt="logo large" />
+      <h1 class="header center white-text">Todd Williams</h1>
+      <div class="row center">
+        <h5 class="header col s12 white-text">Front End Developer</h5>
+      </div>
+    </div>
+  </div>
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <br><br>
+      <!--<div class="row center">
+        <a href="" id="download-button" class="btn-large waves-effect waves-light orange">Get Started</a>
+      </div>-->
+      <br><br>
+
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="mdi-image-filter-frames"></i></h2>
+            <h5 class="center">Speeds up development</h5>
+
+            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
           </div>
-          <div class="col s12 m4 l4">
-            <h6>Profile</h6>
-            <div class="card blue-grey darken-1">
-              <div class="card-content white-text">
-                <img src="http://labs.qnimate.com/portfolio-materialize/images/profile.png" width="64" height="64">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
-              </div>
-              <div class="card-action">
-                <a href="#">Link</a>
-                <a href='#'>Link</a>
-              </div>
-            </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="mdi-social-group"></i></h2>
+            <h5 class="center">User Experience Focused</h5>
+
+            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
           </div>
-          <div class="col s12 m4 l4">
-            <h6>current jobs</h6>
-            <ul class="collapsible">
-              <li class="active">
-                <div class="collapsible-header"><i class="mdi-av-web"></i>Designer</div>
-                <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
-              </li>
-              <li>
-                <div class="collapsible-header"><i class="mdi-editor-format-align-justify"></i>Developer</div>
-                <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
-              </li>
-              <li>
-                <div class="collapsible-header"><i class="mdi-av-play-shopping-bag"></i>Video Editor</div>
-                <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
-              </li>
-              <li>
-                <div class="collapsible-header"><i class="mdi-editor-insert-comment"></i>Support Asst.</div>
-                <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
-              </li>
-            </ul>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="mdi-action-settings"></i></h2>
+            <h5 class="center">Easy to work with</h5>
+
+            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
           </div>
         </div>
       </div>
 
-      <div class="container portfolio">
-        <h5>portfolio</h5>
-        <h6>MY LATEST PROJECTS</h6>
-        <hr>
-        <div class="row">
-          <div class="col s12 m12 l12 portfolio-holder">
-            <img class="materialboxed" src="http://labs.qnimate.com/portfolio-materialize/images/project.png">
-            <img class="materialboxed" src="http://labs.qnimate.com/portfolio-materialize/images/project.png">
-            <img class="materialboxed" src="http://labs.qnimate.com/portfolio-materialize/images/project.png">
-            <img class="materialboxed" src="http://labs.qnimate.com/portfolio-materialize/images/project.png">
-            <img class="materialboxed" src="http://labs.qnimate.com/portfolio-materialize/images/project.png">
-            <img class="materialboxed" src="http://labs.qnimate.com/portfolio-materialize/images/project.png">
-          </div>
+    </div>
+    <br><br>
+
+    <div class="section">
+
+    </div>
+  </div>
+
+  <footer class="page-footer orange">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Company Bio</h5>
+          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+
+
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Settings</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Link 1</a></li>
+            <li><a class="white-text" href="#!">Link 2</a></li>
+            <li><a class="white-text" href="#!">Link 3</a></li>
+            <li><a class="white-text" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Connect</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Link 1</a></li>
+            <li><a class="white-text" href="#!">Link 2</a></li>
+            <li><a class="white-text" href="#!">Link 3</a></li>
+            <li><a class="white-text" href="#!">Link 4</a></li>
+          </ul>
         </div>
       </div>
-<div class="container contact">
-        <h5>contact</h5>
-        <h6>get in touch with me</h6>
-        <hr>
-        <div class="row">
-          <div class="col s12 m6 l6">
-            <div class="row">
-              <form class="col s12">
-                <div class="row">
-                  <div class="input-field col s6">
-                    <input id="first_name" type="text" class="validate">
-                    <label for="first_name">First Name</label>
-                  </div>
-                  <div class="input-field col s6">
-                    <input id="last_name" type="text" class="validate">
-                    <label for="last_name">Last Name</label>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="input-field col s12">
-                    <input id="email" type="email" class="validate">
-                    <label for="email">E-Mail</label>
-                  </div>
-                </div>
-                <textarea class="materialize-textarea" placeholder="Your Message" required></textarea>
-                <button class="btn waves-effect waves-light" type="submit" name="action">Submit
-                  <i class="mdi-content-send right"></i>
-                </button>
-              </form>
-            </div>
-          </div>
-          <div class="col s12 m6 l6 contact-holder">
-            <h6 class="mdi-action-home">Address</h6>
-            <p>Nr. 6, 21 Awesome Street, London, UK</p>
-            <h6 class="mdi-hardware-phone-android">Phone Number</h6>
-            <p>+91 9912776151</p>
-            <h6 class="mdi-action-open-in-browser">Website</h6>
-            <p>qnimate.com</p>
-          </div>
-        </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      ©2015 Todd Williams. All Rights Reserved.
       </div>
-        <footer>
-          <div class="footer-copyright">
-            <div class="container">
-            © 2014 Copyright Text
-            <a class="grey-text text-lighten-4 right" href="#!">Link</a>
-            </div>
-          </div>
-        </footer>
+    </div>
+  </footer>
 
-  <script src='http://codepen.io/assets/libs/fullpage/jquery.js'></script>
-  <script src='https://cdn.rawgit.com/Dogfalo/materialize/master/dist/js/materialize.min.js'></script>
 
-  <script src="js/index.js"></script>
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
 
-</body>
-
+  </body>
 </html>
