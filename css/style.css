@@ -12,7 +12,7 @@
 
 .dark-primary-color    { background: #01419f; }
 .default-primary-color { background: #1976d2; }
-.light-primary-color   { background: #B3E5FC; }
+.light-primary-color   { background: #2196f3; }
 .text-primary-color    { color: #FFFFFF; }
 .accent-color          { background: #e23237; }
 .accent-color-text     { color: #e23237; }
@@ -33,17 +33,18 @@ img.logo {
   padding: 10px 0 10px 0;
 }
 
-@media only screen and (max-width: 992px) {
-	img.logo {display: none;}
-}
-
-h5.header.col.s12.white-text {
+h5.header.col.s12 {
   padding-bottom: 30px;
   margin-top: 0;
 }
 
 div#sub-header {
 	background: #1976d2 url(../images/skyline.png) no-repeat;
+	background-size:100%;
+}
+
+div#sub-header-portfolio {
+	background: #eee url(../images/skyline-bw.png) no-repeat;
 	background-size:100%;
 }
 
@@ -60,8 +61,8 @@ i.technical {
 }
 
 .page-footer i {
-  font-size: 68px;
-  width: 77px;
+  font-size: 50px;
+  width: 50px;
   margin: 0 10px 0 0;
   text-align: center;
   -webkit-transition: all 0.2s ease-out;
@@ -76,3 +77,19 @@ i.technical {
 .fa-twitter:hover, .fa-linkedin:hover, .fa-github:hover, .fa-facebook:hover {opacity: 1;}
 .fa-facebook {margin-left: -20px !important;}
 
+img.portfolio-project {
+	width: 100%;
+  	max-width: 1200px;
+}
+
+.visit-site {
+	padding: 15px;
+	padding-top: 10px;
+}
+
+/*  MEDIA QUERIES  */
+
+@media only screen and (max-width: 992px) {
+	img.logo {display: none;}
+	.quick-bio {padding-top: 40px;}
+}
