@@ -5266,7 +5266,7 @@ small {
   font-size: 75%; }
 
 .light, footer.page-footer .footer-copyright {
-  font-weight: 300; }
+  font-weight: 300;  padding-left: 10px; }
 
 .flow-text {
   font-weight: 300; }
