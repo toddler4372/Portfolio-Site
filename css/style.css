@@ -19,18 +19,27 @@
 .primary-text-color    { color: #212121; }
 .secondary-text-color  { color: #727272; }
 .divider-color         { border-color: #B6B6B6; }
-.button-color		   { background: #fafafa;}
+.button-color		   { background: #1976d2;}
 
 .nav {background-color: #455A64 !important;}
 
 .logo-large {
   display: block;
   margin: 0 auto;
-  padding: 30px;
+  padding: 10px 0 0 0;
+}
+
+.photo-large {
+  display: block;
+  margin: 0 auto;
+  padding: 40px 0 0 0;
 }
 
 img.logo {
-  padding: 10px 0 10px 0;
+  height: 80px;
+  width: 70px;
+  margin: 0;
+  padding: 0;
 }
 
 h5.header.col.s12 {
@@ -39,31 +48,18 @@ h5.header.col.s12 {
 }
 
 div#sub-header {
-	background: #1976d2 url(../images/skyline.png) no-repeat;
+	background: #286bb4 url(../images/skyline.svg) no-repeat;
 	background-size:100%;
 }
-
-div#sub-header-portfolio {
-	background: #eee url(../images/skyline-bw.png) no-repeat;
-	background-size:100%;
-}
-
-i.technical {
-	background: url(../images/curly-braces.png) no-repeat center;
-  	height: 35px;
-  	display: block;
-  	margin-top: 35px;
-  	margin-bottom: 40px;
-  }
 
 .social-icons, .quick-bio {
-  padding: 0 40px 0 40px;
+  padding: 0 10px 0 10px;
 }
 
 .page-footer i {
   font-size: 50px;
   width: 50px;
-  margin: 0 10px 0 0;
+  margin: 0 5px 0 0;
   text-align: center;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
@@ -74,12 +70,52 @@ i.technical {
   color: #fff;
 }
 
+.page-footer i:hover {
+  opacity: 1;
+}
+
+.social i {
+  font-size: 50px;
+  width: 50px;
+  margin: 0 8px 0 0;
+  text-align: center;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  background: transparent;
+  color: #1976d2;
+  opacity: 1;
+}
+
+.social i:hover {
+  color: #01419f;
+}
+
+.social .social-icons {
+  padding: 0 20px 0 0;
+}
+
 .fa-twitter:hover, .fa-linkedin:hover, .fa-github:hover, .fa-facebook:hover {opacity: 1;}
-.fa-facebook {margin-left: -20px !important;}
+.fa-facebook {margin-left: -8px !important;}
+i.fa.fa-envelope {
+  width: 45px;
+  font-size: 45px;
+}
+
+i.technical  {
+  background: url(../images/curly-braces.svg) no-repeat center;
+  height: 53px;
+  width: 50px;
+  display: block;
+  background-size: 100%;
+  margin: 0 auto;
+  margin-bottom: 31px;
+}
 
 img.portfolio-project {
 	width: 100%;
-  	max-width: 1200px;
+  max-width: 1200px;
 }
 
 .visit-site {
@@ -87,9 +123,60 @@ img.portfolio-project {
 	padding-top: 10px;
 }
 
+h5.about {padding: 10px 0 10px 0;}
+
+a#download-button {
+  margin-bottom: 40px;
+}
+
+.page-footer div.col.l4.s12 {padding: 30px;}
+
+/* LATEST TWEET STYLES */
+p.interact {
+  display: none;
+}
+
+.user {
+  display: none;
+}
+
+p.tweet {
+  font-size: 15px; 
+  font-weight: 300;
+  color: #FFF;
+  font-style: italic;
+  text-align: center;
+}
+
+p.tweet a {
+  color: rgba(220, 220, 220, 0.8);
+}
+
+p.timePosted {
+  font-size: 15px; 
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+}
+
+div.quick-bio i.fa.fa-twitter {color: #1976d2;opacity: 1;}
+
 /*  MEDIA QUERIES  */
 
 @media only screen and (max-width: 992px) {
 	img.logo {display: none;}
 	.quick-bio {padding-top: 40px;}
+}
+
+@media only screen and (min-width: 993px) {
+  .logo-large {width: 15%;}
+}
+
+@media only screen and (max-width: 992px) {
+  .logo-large {width: 20%;}
+  .page-footer div.col.l4.s12 {padding: 0px;}
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1240px) {
+  .page-footer div.col.l4.s12 {padding: 0px;}
 }
