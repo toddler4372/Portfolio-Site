@@ -76,7 +76,7 @@ div#sub-header {
 
 .social i {
   font-size: 50px;
-  width: 50px;
+  width: 45px;
   margin: 0 8px 0 0;
   text-align: center;
   -webkit-transition: all 0.2s ease-out;
@@ -161,6 +161,46 @@ p.timePosted {
 
 div.quick-bio i.fa.fa-twitter {color: #1976d2;opacity: 1;}
 
+/*  BLOG STYLES  */
+.dateIcon {
+  border-bottom: 3px solid #969696;
+  text-align: left;
+  margin-right: 70px;
+  padding: 0;
+}
+
+.blog-text {
+  text-align: left;
+}
+
+.blog-text h4 {
+  text-align: left;
+  padding-top: 30px;
+}
+
+.blog-text img {
+  max-width: 80px;
+  max-height: 80px;
+  float: right;
+  margin: -58px 0 10px 10px;
+}
+
+pre {
+  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.01);
+  border: 1px solid #eaeaea;
+  border: 1px solid rgba(51, 51, 51, 0.1);
+  line-height: 1.2;
+  margin-bottom: 1.6em;
+  max-width: 100%;
+  overflow: auto;
+  padding: 0.8em;
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  font-size: 13px;
+}
+
 /*  MEDIA QUERIES  */
 
 @media only screen and (max-width: 992px) {
@@ -180,3 +220,8 @@ div.quick-bio i.fa.fa-twitter {color: #1976d2;opacity: 1;}
 @media only screen and (min-width: 993px) and (max-width: 1240px) {
   .page-footer div.col.l4.s12 {padding: 0px;}
 }
+
+@media only screen and (max-width: 500px) {
+  ul.right {display: none;}
+}
+
