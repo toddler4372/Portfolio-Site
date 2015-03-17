@@ -57,8 +57,8 @@ div#sub-header {
 }
 
 .page-footer i {
-  font-size: 50px;
-  width: 50px;
+  font-size: 40px;
+  width: 38px;
   margin: 0 5px 0 0;
   text-align: center;
   -webkit-transition: all 0.2s ease-out;
@@ -75,8 +75,8 @@ div#sub-header {
 }
 
 .social i {
-  font-size: 50px;
-  width: 45px;
+  font-size: 40px;
+  width: 38px;
   margin: 0 8px 0 0;
   text-align: center;
   -webkit-transition: all 0.2s ease-out;
@@ -130,6 +130,48 @@ a#download-button {
 }
 
 .page-footer div.col.l4.s12 {padding: 30px;}
+
+ul#nav-mobile a {
+  font-size: 1.2em;
+  width: 100%;
+}
+
+ul#nav-mobile li:hover {
+  background-color: #eee;
+}
+
+div.sidenav-header {
+  height: 80px;
+  width: 100%;
+}
+
+.sidenav-header {
+  color: #fff;
+  font-size: 1.5em;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+li.title {
+  background: #1976d2;
+}
+
+ul#nav-mobile li.title:hover {
+  background: #1976d2;
+}
+
+img.sidebar-logo {
+  height: 50px;
+  width: 50px;
+  vertical-align: middle;
+  padding-bottom: 3%;
+}
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
 
 /* LATEST TWEET STYLES */
 p.interact {
@@ -223,5 +265,15 @@ pre {
 
 @media only screen and (max-width: 500px) {
   ul.right {display: none;}
+}
+
+@media only screen and (max-width: 600px) {
+  div.sidenav-header {
+    height: 56px;
+  }
+  img.sidebar-logo {
+    max-height: 40px;
+    max-width: 40px;
+  }
 }
 

@@ -4883,7 +4883,7 @@ span.badge {
       margin-left: 91.66667%; }
     .row .col.offset-s12 {
       margin-left: 100%; }
-    @media only screen and (min-width : 601px) {
+    @media only screen and (min-width : 801px) {
       .row .col.m1 {
         width: 8.33333%;
         margin-left: 0; }
@@ -6760,9 +6760,10 @@ ul.side-nav {
   height: 100%;
   height: calc(100% + 60px);
   padding-bottom: 60px;
-  background-color: #FFF;
+  background-color: #b7b7b7;
   z-index: 999;
-  will-change: left; }
+  will-change: left;
+  border-right: 10px solid #eee; }
   ul.side-nav.right-aligned {
     will-change: right;
     right: -105%;
@@ -6771,12 +6772,14 @@ ul.side-nav {
     margin: 0; }
   ul.side-nav li {
     float: none;
-    padding: 0 15px; }
+    padding: 0 15px;
+    width: 100%; }
     ul.side-nav li:hover, ul.side-nav li.active {
       background-color: #ddd; }
   ul.side-nav a {
+    color: #fff; }
+  ul.side-nav a:hover {
     color: #444; }
-
 .drag-target {
   height: 100%;
   width: 10px;
