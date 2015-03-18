@@ -6,7 +6,7 @@
   <meta name="keywords" content="AngularJS, javascript frameworks, Google Material Design, flat design, javascript inheritance, prototypal inheritance, prototype chaining javascript, javascript prototype property, prototypes javascript, function prototype javascript, prototypes in javascript, javascript create prototype, what is javascript prototype, prototype function javascript, javascript set prototype, create prototype javascript, javascript using prototype, what is prototype javascript, use of prototypes in javascript, how to use prototypes in javascript">
   <meta name="description" content="Welcome to my Front End Development Portfolio Site Blog. Here I like to discuss Material Design and Flat Design, Javascript, AngularJS, jQuery, and other web technologies.">
   <meta name="author" content="Todd Williams">
-  <title>Todd Williams - Front End Developer</title>
+  <title>Todd Williams - Front End Developer - Material Design Portfolio Blog</title>
 
   <!-- CSS  -->
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
@@ -40,7 +40,6 @@
         <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
       </div>
       </div>
-    </div>
   </nav>
   <div id="sub-header" class="dark-primary-color z-depth-1">
     <img src="images/logo.svg" class="logo-large" alt="logo large" />
@@ -49,7 +48,6 @@
         <h5 class="header col s12 white-text">Thoughts on Dev and Design</h5>
       </div>
     </div>
-  </div>
 
 
   <div class="container">
@@ -58,7 +56,7 @@
       <!--   Icon Section   -->
       <div class="row">
         <div class="col s12">
-          <div class="center"
+          <div class="center">
           <div class="icon-block">
             <div class="blog-post">
               <?php while (have_posts()): the_post(); ?>
@@ -78,6 +76,8 @@
       </div>
     </div>
   </div>
+</div>
+
 
   <footer class="page-footer accent-color">
     <div class="container">
@@ -87,11 +87,11 @@
           <h5 class="white-text center">Let's Connect!</h5>
           <p class="grey-text text-lighten-4 center">I love connecting with other developers and designers. Follow me on Twitter, friend request me on Facebook, or contact me on LinkedIn. I would love to hear from you!</p>
           <div class="center">
-            <a href="https://twitter.com/toddlerwilliams" target="_blank" alt="Contact me on Twitter"><i class="fa fa-twitter"></i></a>
-            <a href="http://www.linkedin.com/in/toddcwilliams" target="_blank" alt="Contact me on LinkedIn"><i class="fa fa-linkedin"></i></a>
-            <a href="https://github.com/toddler4372" target="_blank" alt="Contact me on Github"><i class="fa fa-github"></i></a>
-            <a href="https://www.facebook.com/profile.php?id=1467081438" target="_blank" alt="Contact me on Facebook"><i class="fa fa-facebook"></i></a>
-            <a href="mailto:toddlerwilliams@gmail.com" target="_top" alt="Email Me"><i class="fa fa-envelope"></i></a>
+            <a href="https://twitter.com/toddlerwilliams" target="_blank"><i class="fa fa-twitter"></i></a>
+            <a href="http://www.linkedin.com/in/toddcwilliams" target="_blank"><i class="fa fa-linkedin"></i></a>
+            <a href="https://github.com/toddler4372" target="_blank"><i class="fa fa-github"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=1467081438" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a href="mailto:toddlerwilliams@gmail.com" target="_top"><i class="fa fa-envelope"></i></a>
           </div>
           </div>
         </div>

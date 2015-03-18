@@ -121,13 +121,10 @@ img.portfolio-project {
 .visit-site {
 	padding: 15px;
 	padding-top: 10px;
+  margin-bottom: 40px;
 }
 
 h5.about {padding: 10px 0 10px 0;}
-
-a#download-button {
-  margin-bottom: 40px;
-}
 
 .page-footer div.col.l4.s12 {padding: 30px;}
 
