@@ -9,6 +9,7 @@
   <title>Todd Williams - Front End Developer - Material Design Portfolio Blog</title>
 
   <!-- CSS  -->
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400italic,700italic,700,400' rel='stylesheet' type='text/css'>
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link rel="stylesheet" href="css/font-awesome.min.css">
