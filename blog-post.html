@@ -1,0 +1,42 @@
+<a href="http://toddlerwilliams.com/blog/wp-content/uploads/2015/03/elmo3.png"><img class="aligncenter wp-image-31 size-full" src="http://toddlerwilliams.com/blog/wp-content/uploads/2015/03/elmo3.png" alt="" width="80" height="79" /></a>
+
+There are several methods of inheritance in Javascript, one of the more straight-forward being Prototype Chaining.  I want to explore each of these methods to moreso solidify them in my own brain, and hopefully help others to understand them as well.  I'll be using a Sesame Street theme, as my son Jack's obsession with it has the show playing over and over in my head.  So perhaps this can be cathartic.
+
+Let's check out the usual chaining code pattern. First we define the parent constructor <code>Puppet</code>. As you know, a constructor is just a function that creates objects. Within the <code>Puppet</code> constructor we define the <code>name</code> property.
+<div class="snippet">
+<pre>var Puppet = function(name) {
+ this.name = name;
+};</pre>
+Next we can add a couple methods to <code>Puppet.prototype</code>.  Then we can use the method <code>.sayHi</code> on an instance of the Puppet class if we want.
+<pre>Puppet.prototype.talk = function(){
+ console.log("Oh, hi!");
+};
+
+Puppet.prototype.sayHi = function(){
+ console.log("Hi, I'm " + this.name + "!");
+};
+
+var puppet1 = new Puppet('Elmo');
+var puppet2 = new Puppet('Grover');
+
+puppet1.sayHi(); // this logs "Hi, I'm Elmo!"</pre>
+Now let's start setting up the Prototype Chain. We want to start fleshing out Elmo a little more, so instead of relying on a <code>Puppet</code> instance, let's define an <code>Elmo</code> constructor as a child class of our <code>Puppet</code> constructor. This will allow us to set Elmo apart from the basic <code>Puppet</code> class.  We're going to call the parent constructor <code>Puppet</code> with <code>Puppet.call</code> to make sure that '<code>this</code>' is referencing it. On the next line we'll initialize an Elmo-specific property.
+<pre>function Elmo(name, mood) {
+  Puppet.call(this, name);
+  this.mood = mood;
+};</pre>
+Now we can chain these prototypes together using <code>Object.create</code>.
+<pre>Elmo.prototype = Object.create(Puppet.prototype);</pre>
+Then we set the <code>Elmo.prototype.constructor</code> property to reference our <code>Elmo</code> constructor, adding a new <code>sayHi</code> method that is unique to Elmo. [note: <em>Elmo always refers to himself in the 3rd person. Don't ask me how I know.</em>]
+<pre>Elmo.prototype.constructor = Elmo;
+
+Elmo.prototype.sayHi = function(){
+  console.log("Hello, Elmo is " + this.name + ". Elmo is usually " + this.mood + ".");
+};</pre>
+Now let's try to call a function on the new Elmo prototype.
+<pre>var daytimeElmo = new Elmo("Elmo", "manic");
+
+daytimeElmo.sayHi();  // this logs "Hello, Elmo is Elmo. Elmo is usually manic."</pre>
+We've now successfully chained our child class <code>Elmo</code> to our parent class <code>Puppet</code>. We can now add as many unique properties to the <code>Elmo</code> class as we want without affecting the <code>Puppet </code>class. What's more, if we have further methods or properties that we want to apply to all puppets, then we can add them to our parent class and <code>Elmo</code> will inherit them.
+
+</div>
