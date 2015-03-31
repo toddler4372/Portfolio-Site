@@ -36,10 +36,13 @@
 }
 
 img.logo {
-  height: 80px;
-  width: 70px;
-  margin: 0;
-  padding: 0;
+  width: 60px;
+  height: auto;
+}
+
+a#logo-container {
+  width: 60px;
+  height: auto;
 }
 
 h5.header.col.s12 {

@@ -202,26 +202,26 @@ twitterFetcher.fetch(config6);
 // ##### CommonJS example (e.g. Browserify) #####
 // The result of this example is identical to example 1, but it's meant for
 // usage through Browserify or compatible bundler.
-var fetcher = require('twitter-fetcher'); //debowerify may be needed
-var config7 = {
-  "id": '576426549290754048',
-  "domId": 'example1',
-  "maxTweets": 1,
-  "enableLinks": true
-};
-fetcher.fetch(config7);
+//var fetcher = require('twitter-fetcher'); //debowerify may be needed
+//var config7 = {
+//  "id": '576426549290754048',
+// "domId": 'example1',
+// "maxTweets": 1,
+// "enableLinks": true
+//};
+//fetcher.fetch(config7);
 
 
 // ##### AMD example (e.g. Require.js) #####
 // The result of this example is identical to example 1, but it's meant for
 // usage with Require.js or similar loader.
-require(['twitter-fetcher'], function (fetcher) {
-  var config7 = {
-    "id": '576426549290754048',
-    "domId": 'example1',
-    "maxTweets": 1,
-    "enableLinks": true
-  };
-  fetcher.fetch(config7);
-});
+//require(['twitter-fetcher'], function (fetcher) {
+//  var config7 = {
+//    "id": '576426549290754048',
+//    "domId": 'example1',
+//    "maxTweets": 1,
+//    "enableLinks": true
+//  };
+//  fetcher.fetch(config7);
+//});
 
