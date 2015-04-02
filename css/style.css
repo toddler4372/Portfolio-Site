@@ -121,10 +121,11 @@ img.portfolio-project {
   max-width: 1200px;
 }
 
-.visit-site {3.
+.visit-site {
 	padding: 15px;
 	padding-top: 10px;
   margin-bottom: 40px;
+
 }
 
 h5.about {padding: 10px 0 10px 0;}
@@ -276,4 +277,8 @@ pre {
     max-width: 40px;
   }
 }
+
+#sub-header > h1, #sub-header > div:nth-child(3) > h5 {
+  color: #FFFFFF !important;
+  text-shadow: 1px 1px 4px rgba(6, 57, 102, 1) !important; }
 
