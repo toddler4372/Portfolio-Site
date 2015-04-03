@@ -55,6 +55,13 @@ div#sub-header {
 	background-size:100%;
 }
 
+@media only screen and (max-width: 600px) {
+  div#sub-header {
+  background: #286bb4 url(../images/skyline-sm.svg) no-repeat;
+  background-size:100%;
+}
+}
+
 .social-icons, .quick-bio {
   padding: 0 10px 0 10px;
 }
