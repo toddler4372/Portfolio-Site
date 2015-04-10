@@ -240,7 +240,7 @@ pre {
   background-color: rgba(0, 0, 0, 0.01);
   border: 1px solid #eaeaea;
   border: 1px solid rgba(51, 51, 51, 0.1);
-  line-height: 1.2;
+  line-height: 1.5;
   margin-bottom: 1.6em;
   max-width: 100%;
   overflow: auto;
@@ -260,11 +260,27 @@ pre {
 
 @media only screen and (min-width: 993px) {
   .logo-large {width: 15%;}
+  img.DOM-example {
+    min-width: 50em !important;
+    min-height: 50em !important;
+    display: block;
+    float: left;
+    margin: 0;
+    margin-left: 3%;
+  }
 }
 
 @media only screen and (max-width: 992px) {
   .logo-large {width: 30%;}
   .page-footer div.col.l4.s12 {padding: 0px;}
+  img.DOM-example {
+    min-width: 30em !important;
+    min-height: 30em !important;
+    display: block;
+    float: left;
+    margin: 0;
+    margin-left: 3%;
+  }
 }
 
 @media only screen and (min-width: 993px) and (max-width: 1240px) {
@@ -283,9 +299,19 @@ pre {
     max-height: 40px;
     max-width: 40px;
   }
+  img.DOM-example {
+    min-width: 20em !important;
+    min-height: 20em !important;
+    display: block;
+    float: left;
+    margin: 0;
+    margin-left: 3%;
+  }
 }
 
 #sub-header > h1, #sub-header > div:nth-child(3) > h5 {
   color: #FFFFFF !important;
   text-shadow: 1px 1px 4px rgba(6, 57, 102, 1) !important; }
+
+
 
