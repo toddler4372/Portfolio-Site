@@ -61,7 +61,7 @@
           <div class="icon-block">
             <div class="blog-post">
               <?php
-              $posts = get_posts('numberposts=10&order=ASC&orderby=post_title');
+              $posts = get_posts('numberposts=10&order=DESC');
               foreach ($posts as $post) : setup_postdata( $post ); ?>
               <div class="blog-text">
               <h4><?php the_title(); ?></h4>
@@ -74,17 +74,6 @@
               <?php
               endforeach;
               ?>
-            <!--  <?php while (have_posts()): the_post(); ?>
-              <div class="blog-text">
-              <h4><?php the_title(); ?></h4>
-              <div class="dateIcon">
-              <p><?php the_time('F j, Y'); ?> at <?php the_time('g:i a'); ?></p> 
-              </div>
-              <?php the_content(); ?>
-              <a href="<?php the_permalink(); ?>">Read More...</a>
-              </div>
-              <br />
-              <?php endwhile; ?>-->
             </div>
           </div>
         </div>
