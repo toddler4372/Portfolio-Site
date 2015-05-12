@@ -314,4 +314,5 @@ pre {
   text-shadow: 1px 1px 4px rgba(6, 57, 102, 1) !important; }
 
 
-
+code {background-color: rgba(0, 0, 0, 0.03) !important;}
+blockquote {border-left: 5px solid #346bb4 !important;}
