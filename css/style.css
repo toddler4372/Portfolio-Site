@@ -251,6 +251,10 @@ pre {
   font-size: 13px;
 }
 
+#img-titlebar {
+    max-width: 178px;
+  }
+
 /*  MEDIA QUERIES  */
 
 @media only screen and (max-width: 992px) {
@@ -298,6 +302,10 @@ pre {
   img.sidebar-logo {
     max-height: 40px;
     max-width: 40px;
+  }
+  #img-titlebar {
+    max-width: 130px;
+    padding-top: 10px;
   }
   img.DOM-example {
     min-width: 20em !important;
