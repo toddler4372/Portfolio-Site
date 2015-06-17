@@ -24,7 +24,7 @@
     <div class="container">
       <div class="nav-wrapper"><a id="logo-container" href="/" class="brand-logo"><img src="images/logo.svg" class="logo" alt="Logo" /></a>
         <ul class="right">
-          <li><a href="/portfolio.html">Portfolio</a></li>
+          <li><a href="/sites.html">Sites</a></li>
           <li><a href="/apps.html">Apps</a></li>
           <li><a href="/blog.php">Blog</a></li>
           <li><a href="/about.html">About</a></li>
@@ -34,7 +34,7 @@
         <ul id="nav-mobile" class="side-nav">
           <li class="title"><div class="sidenav-header"><span class="helper"></span><img src="images/logo.svg" class="sidebar-logo" alt="Sidebar Logo" />Todd Williams</div></li>
           <li class="waves-effect waves-dark"><a href="/">Home</a></li>
-          <li class="waves-effect waves-dark"><a href="/portfolio.html">Portfolio</a></li>
+          <li class="waves-effect waves-dark"><a href="/sites.html">Sites</a></li>
           <li class="waves-effect waves-dark"><a href="/apps.html">Apps</a></li>
           <li class="waves-effect waves-dark"><a href="/blog.php">Blog</a></li>
           <li class="waves-effect waves-dark"><a href="/about.html">About</a></li>
