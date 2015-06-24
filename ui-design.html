@@ -3,10 +3,10 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-  <meta name="keywords" content="AngularJS, javascript frameworks, Google Material Design, flat design, javascript inheritance, prototypal inheritance, prototype chaining javascript, javascript prototype property, prototypes javascript, function prototype javascript, prototypes in javascript, javascript create prototype, what is javascript prototype, prototype function javascript, javascript set prototype, create prototype javascript, javascript using prototype, what is prototype javascript, use of prototypes in javascript, how to use prototypes in javascript">
-  <meta name="description" content="Welcome to my Front End Development Portfolio Site Blog. Here I like to discuss Material Design and Flat Design, Javascript, AngularJS, jQuery, and other web technologies.">
+  <meta name="keywords" content="web development, web developer, web page developer, ecommerce web design, ecommerce website design, ecommerce site design, ecommerce web site design, ecommerce website designer, website ecommerce design, ecommerce website developer, ecommerce website, ecommerce website builder, ecommerce websites, best ecommerce website builder, ecommerce website development, best ecommerce website, best ecommerce websites, ecommerce website developers, ecommerce website developer, create ecommerce website, website ecommerce, ecommerce website cost, websites with ecommerce, websites ecommerce, ecommerce website solutions, creating ecommerce website, professional ecommerce website, website builder, website builders, responsive ecommerce design">
+  <meta name="description" content="Here are my projects as a responsive front end web developer and designer. The majority of my experience is with ecommerce websites, but I also am proficient in Bootstrap, Foundation and other responsive web design platforms.">
   <meta name="author" content="Todd Williams">
-  <title>Todd Williams - Front End Developer - Material Design Portfolio Blog</title>
+  <title>Todd Williams - Front End Developer - UI Design</title>
 
   <!-- CSS  -->
   <link href='http://fonts.googleapis.com/css?family=Roboto:400italic,700italic,700,400' rel='stylesheet' type='text/css'>
@@ -14,10 +14,9 @@
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="icon" type="image/png" href="images/favicon.png">
+  <link href="//cdn.rawgit.com/noelboss/featherlight/1.2.2/release/featherlight.min.css" type="text/css" rel="stylesheet" title="Featherlight Styles" />
   <script type="text/javascript" src="js/latest-tweet.js"></script>
-  <?php
-  require('blog/wp-blog-header.php');
-  ?>
+
 </head>
 <body>
   <nav class="default-primary-color z-depth-5" role="navigation">
@@ -42,50 +41,38 @@
           <li class="waves-effect waves-dark"><a href="/about.html">About</a></li>
           <li class="waves-effect waves-dark"><a href="/contact.html">Contact</a></li>
         </ul>
+
         <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
       </div>
       </div>
   </nav>
   <div id="sub-header" class="dark-primary-color z-depth-1">
     <img src="images/logo.svg" class="logo-large" alt="logo large" />
-      <h1 class="header center white-text">Blog</h1>
+      <h1 class="header center white-text">UI Design</h1>
       <div class="row center">
-        <h5 class="header col s12 white-text">Thoughts on Dev and Design</h5>
+        <h5 class="header col s12 white-text">My Most Recent Mockups</h5>
       </div>
     </div>
 
 
   <div class="container">
-    <div class="section" style="padding-top: 0;">
+    <div class="section">
 
       <!--   Icon Section   -->
       <div class="row">
-        <div class="col s12">
-          <div class="center">
+        <div class="col m12">
           <div class="icon-block">
-            <div class="blog-post">
-              <?php
-              $posts = get_posts('numberposts=10&order=DESC');
-              foreach ($posts as $post) : setup_postdata( $post ); ?>
-              <div class="blog-text">
-              <h4><?php the_title(); ?></h4>
-              <div class="dateIcon">
-              <p><?php the_time('F j, Y'); ?> at <?php the_time('g:i a'); ?></p>
-              </div>  
-              <?php the_content(); ?> 
-              </div>
-              <br />
-              <?php
-              endforeach;
-              ?>
-            </div>
+            <a href="#" data-featherlight="images/dashboard-1.png" title="Flat Mobile Dashboard Design"><img src="images/dashboard-1.png" alt="dashboards" class="ui-project"></a>
+            <a href="#" data-featherlight="images/dashboard-2.png" title="Flat Mobile Dashboard Design"><img src="images/dashboard-2.png" alt="dashboards" class="ui-project"></a>
+            <a href="#" data-featherlight="images/dashboard-3.png" title="Flat Mobile Dashboard Design"><img src="images/dashboard-3.png" alt="dashboards" class="ui-project"></a>
+            <a href="#" data-featherlight="images/dashboard-4.png" title="Flat Mobile Dashboard Design"><img src="images/dashboard-4.png" alt="dashboards" class="ui-project"></a>
+            <h5>Research & Development Platform</h5>
+            <p>This was a design study I did for mobile to explore different looks for sidebars, hidden dashboard and search results screens for a research and development platform. Search filters are accessed through a dropdown menu. It primarily showcases flat design along with some material elements. Photoshop was the only tool used.</p>
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
-
 
   <footer class="page-footer accent-color">
     <div class="container">
@@ -135,6 +122,7 @@
   <script type="text/javascript" src="js/twitterFetcher_min.js"></script>
   <script type="text/javascript" src="js/exampleUsage.js"></script>
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="//cdn.rawgit.com/noelboss/featherlight/1.2.2/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
 

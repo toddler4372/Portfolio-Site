@@ -25,6 +25,7 @@
         <ul class="right">
           <li><a href="/sites.html">Sites</a></li>
           <li><a href="/apps.html">Apps</a></li>
+          <li><a href="/ui-design.html">UI Design</a></li>
           <li><a href="/blog.php">Blog</a></li>
           <li><a href="/about.html">About</a></li>
           <li><a href="/contact.html">Contact</a></li>
@@ -35,6 +36,7 @@
           <li class="waves-effect waves-dark"><a href="/">Home</a></li>
           <li class="waves-effect waves-dark"><a href="/sites.html">Sites</a></li>
           <li class="waves-effect waves-dark"><a href="/apps.html">Apps</a></li>
+          <li class="waves-effect waves-dark"><a href="/ui-design.html">UI Design</a></li>
           <li class="waves-effect waves-dark"><a href="/blog.php">Blog</a></li>
           <li class="waves-effect waves-dark"><a href="/about.html">About</a></li>
           <li class="waves-effect waves-dark"><a href="/contact.html">Contact</a></li>
@@ -60,14 +62,13 @@
       <div class="row">
         <div class="col m12">
           <div class="icon-block">
-            <a href="#" data-featherlight="images/app-supersonic.png" title="SuperSonic AngularJS App"><img src="images/app-supersonic.png" alt="SuperSonic AngularJS App" class="portfolio-project"></a>
-            <h5>SuperSonic</h5>
-            <p>In my process of learning the ins and outs of AngularJS, SuperSonic was built as a collection of bits of AngularJS functionality. I started with angular-seed and built out my project directories using Yeoman.  Bower was used to install all of my component dependencies including ngResource for services in order to connect with a Firebase API as a backend.</p>
-            <p>One of the main challenges of this Angular project was integrating Semantic-UI as a pattern library. Semantic-UI uses Gulp as its installer, and my project's build process was using Grunt. A combination of manual install, rewriting the Gruntfile, and accessing Semantic webfonts from a CDN made the integration possible.</p>
-            <p>This app is a work in progress, and currently users can create a profile, add posts and links, and post comments. This app will probably serve as a testbed for playing with new Angular functionality. Currently the layout has only been tested on iPhone 6.</p>
+            <a href="#" data-featherlight="images/app-tweeter.png" title="Tweeter AngularJS App"><img src="images/app-tweeter.png" alt="Tweeter AngularJS App" class="portfolio-project"></a>
+            <h5>Tweeter</h5>
+            <p>Tweeter is currently a (mostly) non-functioning app sitting on an AngularJS skeleton. So far it's been used as a design study using Semantic UI. A flat, fun and clean user interface was the goal, and Angular functionality beyond switching views may be added later. The app is now hosted on Firebase.</p>
+            <p>Another goal was to get some use out of Semantic's scripting power. Scripts are implemented for modals, dropdowns, and accordions. Semantic-UI was added to the root directory bower.json as a dependency, and was written into the Gruntfile.js for inclusion in the build. The layout has only been tested on iPhone 6.</p>
           </div>
           <div class="visit-site">
-            <a href="https://sweltering-heat-8723.firebaseapp.com/#/" id="download-button" class="btn-large waves-effect waves-light" target="_blank">Visit Site</a><br><br>
+            <a href="https://tweetersocial.firebaseapp.com/#/" id="download-button" class="btn-large waves-effect waves-light" target="_blank">Visit Site</a><br><br>
           </div>
         </div>
       </div>
@@ -78,13 +79,32 @@
       <div class="row">
         <div class="col m12">
           <div class="icon-block">
-            <a href="#" data-featherlight="images/app-tweeter.png" title="Tweeter AngularJS App"><img src="images/app-tweeter.png" alt="Tweeter AngularJS App" class="portfolio-project"></a>
-            <h5>Tweeter</h5>
-            <p>Tweeter is currently a (mostly) non-functioning app sitting on an AngularJS skeleton. So far it's been used as a design study using Semantic UI. A flat, fun and clean user interface was the goal, and Angular functionality beyond switching views may be added later. The app is now hosted on Firebase.</p>
-            <p>Another goal was to get some use out of Semantic's scripting power. Scripts are implemented for modals, dropdowns, and accordions. Semantic-UI was added to the root directory bower.json as a dependency, and was written into the Gruntfile.js for inclusion in the build. The layout has only been tested on iPhone 6.</p>
+            <a href="#" data-featherlight="images/app-slackerchat.png" title="Slack AngularJS Clone App"><img src="images/app-slackerchat.png" alt="Slack AngularJS Clone App" class="portfolio-project"></a>
+            <h5>Slackerchat</h5>
+            <p>Slackerchat is a partially functional Angular Slack clone. The app is now hosted on Firebase and is using the Semantic-UI pattern library. Currently you can register, create a profile, create channels, post to channels, and direct message other users.</p>
+            <p>The app was built to explore some additional AngularJS functionality, and also is a UI material design study using a subtle color palette. There are a few lingering mobile layout issues with the sidebar menu, and some functionality is still missing. Mobile formatting is currently only tested for iPhone6.</p>
+            <p>In order to use the app, you can register or login with the username <b>test@test.com</b> and password <b>test</b>.</p>
           </div>
           <div class="visit-site">
-            <a href="https://tweetersocial.firebaseapp.com/#/" id="download-button" class="btn-large waves-effect waves-light" target="_blank">Visit Site</a><br><br>
+            <a href="https://slackerchat.firebaseapp.com/#/channels/-JrdsDxNsh8ZG5HEubTW/messages" id="download-button" class="btn-large waves-effect waves-light" target="_blank">Visit Site</a><br><br>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col m12">
+          <div class="icon-block">
+            <a href="#" data-featherlight="images/app-supersonic.png" title="SuperSonic AngularJS App"><img src="images/app-supersonic.png" alt="SuperSonic AngularJS App" class="portfolio-project"></a>
+            <h5>SuperSonic</h5>
+            <p>In my process of learning the ins and outs of AngularJS, SuperSonic was built as a collection of bits of AngularJS functionality. I started with angular-seed and built out my project directories using Yeoman.  Bower was used to install all of my component dependencies including ngResource for services in order to connect with a Firebase API as a backend.</p>
+            <p>One of the main challenges of this Angular project was integrating Semantic-UI as a pattern library. Semantic-UI uses Gulp as its installer, and my project's build process was using Grunt. A combination of manual install, rewriting the Gruntfile, and accessing Semantic webfonts from a CDN made the integration possible.</p>
+            <p>This app is a work in progress, and currently users can create a profile, add posts and links, and post comments. This app will probably serve as a testbed for playing with new Angular functionality. Currently the layout has only been tested on iPhone 6.</p>
+          </div>
+          <div class="visit-site">
+            <a href="https://sweltering-heat-8723.firebaseapp.com/#/" id="download-button" class="btn-large waves-effect waves-light" target="_blank">Visit Site</a><br><br>
           </div>
         </div>
       </div>
