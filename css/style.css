@@ -133,6 +133,11 @@ img.ui-project {
   max-width: 1200px;
 }
 
+img.ui-project-desktop {
+  width: 48%;
+  max-width: 1200px;
+}
+
 .visit-site {
 	padding: 15px;
 	padding-top: 10px;
